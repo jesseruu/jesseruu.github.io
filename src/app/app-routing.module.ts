@@ -1,15 +1,26 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { FolderPage } from './folder/folder.page';
+import { PagesComponent } from './components/pages/pages.component';
+import { PagesTwoComponent } from './components/pages-two/pages-two.component';
+import { PagesThreeComponent } from './components/pages-three/pages-three.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FolderPage
+    redirectTo: 'page/home',
+    pathMatch: 'full'
   },
   {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
+    path: 'page/home',
+    component: PagesComponent
+  },
+  {
+    path: 'page/recomendation',
+    component: PagesTwoComponent
+  },
+  {
+    path: 'page/stadistics',
+    component: PagesThreeComponent
   }
 ];
 

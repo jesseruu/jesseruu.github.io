@@ -1,0 +1,46 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+}
+
+ion-title {
+    font-family: GoogleSansB;
+    font-size: 26px;
+}
+
+#container {
+    padding: 30px;
+    margin: 0;
+
+    @media (min-width: 541px) {
+        margin: 10px auto;
+        padding: 30px;
+        max-width: 680px;
+    }
+
+    @media (min-width: 1400px) {
+        margin: 10px auto;
+        padding: 30px;
+        max-width: 920px;
+    }
+}
+
+
+#container p {
+    font-size: 20px;
+    letter-spacing: -.02em;
+    line-height: 160%;
+    color: #445b78;
+}
+
+#container h1 {
+    font-family: GoogleSansB;
+    font-size: 48px;
+
+    @media (min-width: 541px) {
+        padding: 10px 0;
+    }
+}
+
+#container a {
+    text-decoration: none;
+}
