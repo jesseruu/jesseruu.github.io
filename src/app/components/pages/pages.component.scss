@@ -13,13 +13,13 @@ ion-title {
 
     @media (min-width: 541px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 680px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1240px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 920px;
     }
 }
@@ -29,7 +29,6 @@ ion-title {
     font-size: 20px;
     letter-spacing: -.02em;
     line-height: 160%;
-    color: #445b78;
 }
 
 #container h1 {
