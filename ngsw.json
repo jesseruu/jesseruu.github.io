@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1660607155037,
+  "timestamp": 1660611996137,
   "index": "/pwa-demo/index.html",
   "assetGroups": [
     {
@@ -66,7 +66,7 @@
         "/pwa-demo/9958.fc8605cff6ed0675.js",
         "/pwa-demo/common.27de072060027369.js",
         "/pwa-demo/index.html",
-        "/pwa-demo/main.22066b807744e0c6.js",
+        "/pwa-demo/main.97c56304958eceb8.js",
         "/pwa-demo/manifest.webmanifest",
         "/pwa-demo/polyfills-core-js.c8961a92c3ed4c69.js",
         "/pwa-demo/polyfills-dom.5c5f23fb57b03028.js",
@@ -101,7 +101,9 @@
         "/pwa-demo/assets/icons/icon-512x512.png",
         "/pwa-demo/assets/icons/icon-72x72.png",
         "/pwa-demo/assets/icons/icon-96x96.png",
-        "/pwa-demo/assets/shapes.svg"
+        "/pwa-demo/assets/mobile-market.jpg",
+        "/pwa-demo/assets/shapes.svg",
+        "/pwa-demo/assets/top-app.jpg"
       ],
       "patterns": []
     }
@@ -178,10 +180,12 @@
     "/pwa-demo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/pwa-demo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pwa-demo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pwa-demo/assets/mobile-market.jpg": "92c574fb1d65ba39f3ae4a164ce0300921c394c2",
     "/pwa-demo/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
+    "/pwa-demo/assets/top-app.jpg": "446d6cead086ae620427ff753519948ff3df266c",
     "/pwa-demo/common.27de072060027369.js": "258bb1f990a316bff0c29213d92e61ca16ab9e9a",
-    "/pwa-demo/index.html": "32a6c66e3c5af4a1d4d7f27c8ce0e84300092d61",
-    "/pwa-demo/main.22066b807744e0c6.js": "461b4f3ab1d04aefeadb3edd3013b4c8fab7cce1",
+    "/pwa-demo/index.html": "e99ff7e350e453a8858cc4a84b0cffebbd9bed80",
+    "/pwa-demo/main.97c56304958eceb8.js": "d5ecba3d7299228c8d041dd0f9c3c4a27a2ce382",
     "/pwa-demo/manifest.webmanifest": "972ffb0b96367e41451b22164ebc6da12abdcc3b",
     "/pwa-demo/polyfills-core-js.c8961a92c3ed4c69.js": "e44d42a08762418090a95d81b35288ab338d21e8",
     "/pwa-demo/polyfills-dom.5c5f23fb57b03028.js": "06f5dc30f55bf9a3d9c6f9bca07c0041a6bbdaa0",
