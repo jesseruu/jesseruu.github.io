@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
+  pathOne = 'assets/mobile-market.jpg';
+  altTextOne = 'Global Mobile Apps Market';
+  pathTwo = 'assets/top-app.jpg';
+  altTextTwo = 'Top Apps Worldwide';
+
   constructor() { }
 
   ngOnInit() { }

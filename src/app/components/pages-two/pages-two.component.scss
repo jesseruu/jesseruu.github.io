@@ -11,24 +11,40 @@ ion-title {
     padding: 30px;
     margin: 0;
 
+    &__content {
+        &__img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 75%;
+        }
+    }
+
     @media (min-width: 541px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 680px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1240px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 920px;
+
+        &__content {
+            display: flex;
+
+            &__img {
+                margin-right: 10px;
+                flex: 1;
+            }
+
+            &__text {
+                flex: 1;
+            }
+        }
     }
-}
-
-
-#container p {
-    font-size: 20px;
-    letter-spacing: -.02em;
-    line-height: 160%;
 }
 
 #container h1 {
@@ -40,6 +56,34 @@ ion-title {
     }
 }
 
+#container h2 {
+    font-family: GoogleSansB;
+    font-size: 36px;
+    padding: 10px;
+
+    @media (min-width: 1240px) {
+        padding: 5px;
+    }
+}
+
+
 #container a {
     text-decoration: none;
+}
+
+#text {
+    font-size: 18px;
+    letter-spacing: -.02em;
+    line-height: 160%;
+}
+
+#textB {
+    font-size: 20px;
+    letter-spacing: -.02em;
+    line-height: 160%;
+}
+
+#marketImg {
+    height: auto;
+    width: 90%;
 }
