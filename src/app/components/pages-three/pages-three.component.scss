@@ -13,13 +13,13 @@ ion-title {
 
     @media (min-width: 541px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 680px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1240px) {
         margin: 10px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 920px;
     }
 }
@@ -42,4 +42,9 @@ ion-title {
 
 #container a {
     text-decoration: none;
+}
+
+#marketImg {
+    height: auto;
+    max-width: 45%;
 }
