@@ -10,5 +10,6 @@ export class AppComponent {
     { title: 'Recomendaciones', url: 'page/recomendation', icon: 'image' },
     { title: 'Estadisticas', url: 'page/stadistics', icon: 'newspaper' },
   ];
+  public labels = ['Oscar Lopez', 'Jonathan Reyes', 'Jesser Lemus'];
   constructor() { }
 }
